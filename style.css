@@ -1,11 +1,19 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("heart-bg.jpg");
+
     font-family: "Pixelify Sans", sans-serif;
+
+    background-image: url("heart-bg.jpg");
+    background-size: cover;          /* ideal for 16:9 laptops */
+    background-position: center;     /* keeps focus centered */
+    background-repeat: no-repeat;
+
+    background-color: #000;          /* fallback color */
 }
 
 /* Envelope Screen */
